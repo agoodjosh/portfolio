@@ -110,7 +110,7 @@
 
         $(window).load(function () {
             $(".typing").typed({
-                strings: ["Altrustic", "Creative", "Logical", "I am a Web Developer.", "I am...", "JAUX"],    /* You can change the home section typing text from
+                strings: ["Altrustic.", "Creative.", "Logical.", "A Web Developer.", "I am...", "JAUX."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
                 typeSpeed: 70
             });
@@ -154,6 +154,7 @@
                     '<div class="mfp-img"></div>' +
                     '<div class="mfp-bottom-bar portfolio_title">' +
                     '<div class="mfp-title"></div>' +
+                    '<div class="mfp-content"></div>' +
                     '<div class="mfp-counter"></div>' +
                     '</div>' +
                     '</div>',

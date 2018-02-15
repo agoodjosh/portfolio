@@ -53,7 +53,7 @@ body {
 }
 
 ::selection {
-    background-color: #24b662;
+    background-color: #ff6565bd;
     color: #ffffff;
 }
 
@@ -604,7 +604,22 @@ ul.portfolio li.active {
     cursor: inherit;
 }
 
+.portfolio-p {
+    text-align: center;
+}
 
+.portfolio-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.portfolio-links {
+    color: black;
+    padding: 0px 10px;
+}
+.portfolio-links:hover {
+    color: #ff5555;
+}
 
 /* Testimonial */
 
