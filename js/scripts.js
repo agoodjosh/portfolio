@@ -110,7 +110,7 @@
 
         $(window).load(function () {
             $(".typing").typed({
-                strings: ["Altrustic.", "Creative.", "Logical.", "A Web Developer.", "I am...", "JAUX."],    /* You can change the home section typing text from
+                strings: ["I am a ...", "Creative Artist.", "Logical Engineer.", "Web Developer.", " JAUX."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
                 typeSpeed: 70
             });
@@ -209,18 +209,18 @@
 
         /* Google Map */
 
-        $('#my-address').gMap({
-            zoom: 5,
-            scrollwheel: true,
-            maptype: 'ROADMAP',
-            markers: [
-                {
-                    address: "New York",  /* You can change your address from here */
-                    html: "<b>Address</b>: <br> Area-2, Rose Area, New York, U.S.A.",   /* You can change display address text from here */
-                    popup: true
-                }
-            ]
-        });
+        // $('#my-address').gMap({
+        //     zoom: 5,
+        //     scrollwheel: true,
+        //     maptype: 'ROADMAP',
+        //     markers: [
+        //         {
+        //             address: "New York",  /* You can change your address from here */
+        //             html: "<b>Address</b>: <br> Area-2, Rose Area, New York, U.S.A.",   /* You can change display address text from here */
+        //             popup: true
+        //         }
+        //     ]
+        // });
 
 
     });
