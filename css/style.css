@@ -754,8 +754,21 @@ ul.portfolio li.active {
   transition: all 0.3s ease-in-out;
   position: relative;
   top: 0px;
-  padding: 30px 40px 30px 40px;
+  /* padding: 30px 40px 30px 40px; */
   margin-top: 32px;
+  text-align: center;
+}
+
+.services-detail > img {
+    width: auto;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.services-detail > h3 {
+    font-size: 100%;
+    margin: 0;
+    padding: 25px 0 8px 0;
 }
 
 .services-section .services-detail:hover {
