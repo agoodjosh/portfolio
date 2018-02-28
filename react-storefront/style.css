@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Ariel, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, p, .nav-list {
+    margin: 0;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+        /*********** header and .navigation styling *************/
+
+.header {
+    position: relative;
+    background: #fffabe url("./images/logo.png") no-repeat 7% 50%;
+    width: 100%;
+    height: 72px;
+}
+.navigation {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 5px 0;
+}
+.navigation .nav-list {
+    padding: 0;
+    margin: 0;
+}
+.nav-item {
+    display: inline-block;
+    padding: 22px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #515151;
+}
+.nav-item a:hover {
+    color: #d42551;
+}
+
+        /********** main section image and content styling ************/
+
+.main-image img {
+    width: 100%;
+}
+
+.main-content {
+    width: 90%;
+    margin: auto;
+    padding: 3.939% 0;
+}
+.main-content h3 {
+    padding: 2% 0;
+    color: #6a6969;
+}
+.main-content p {
+    font-size: 0.87em;
+    padding: 2.48% 0;
+    color: #6a6969;
+}
+
+        /*** inner divs for main content styling on home page (and form styling) ***/
+
+.aside-image {
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+}
+.main-text {
+    width: 72%;
+    display: inline-block;
+}
+
+.main-text p {
+    word-spacing: 2px;
+    line-height: 130%;
+}
+.main-text li {
+    font-size: 14px;
+    color: #6a6969;
+}
+.main-content span {
+     color: #df5277;
+ }
+
+ .main-text.our-macaron-page {
+     width: 100%;
+ }
+
+ .main-text-with-background-image-2 li {
+    font-size: 14px;
+    color: #6a6969;
+}
+
+        /*** inner divs for main content styling on the rest of the pages  ***/
+
+.main-text-with-background-image {
+    width: 100%;
+    background: url("./images/our-macarons-background.png") no-repeat right 76%;
+    background-size: 100% auto;
+    padding-bottom: 42px;
+}
+.main-text-with-background-image-2 {
+    width: 100%;
+    background: url("./images/gifts-parties-background.png") no-repeat right 100%;
+    background-size: 100% auto;
+    padding-bottom: 42px;
+}
+.contain-text-area {
+    width: 60%;
+}
+
+.contact-page-text {
+    display: inline-block;
+    width: 33%;
+}
+.contact-page-text p {
+    word-spacing: 2px;
+    padding: 1px 0;
+}
+.main-content .paragraph-line-gap {
+    padding-top: 30px;
+}
+
+.contact-form {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+form {
+    width: 70%;
+    padding-bottom: 50px;
+    display: inline;
+}
+input {
+    padding: 5px;
+    margin: 6px;
+    width: 100%;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+}
+textarea {
+    padding: 6px;
+    margin: 5px;
+    width: 100%;
+    height: 70px;
+    resize: vertical;
+    background-color: #f5f5f5;
+    border: none;
+    font-family: Ariel, Helvetica, sans-serif;
+}
+button {
+    width: 35%;
+    height: 7.4vh;
+    margin-top: 5px;
+    background-color: #f5f5f5;
+    border: none;
+    float: right;
+    padding: 0;
+    left: 1%;
+    position: relative;
+}
+
+        /********* weekly menu content and container styling **********/
+
+.weekly-menu-container {
+    width: 100%;
+    text-align: center;
+}
+.weekly-menu-container .sample-day {
+    position: relative;
+    display: inline-block;
+    width: 11.5vw;
+    /* height: 23vh; */
+    margin: 2% 1%;
+    background-color: #fffabe;
+    color: #6a6969;
+    text-align: start;
+}
+.daily-sample-top {
+    padding: 13px 13px 0;
+}
+.weekly-menu-container h4 {
+    font-size: 1.5vw;
+    font-weight: normal;
+    margin: 0;
+}
+.weekly-menu-container p {
+    font-size: 1vw;
+}
+.weekly-menu-container div p {
+    display: inline-block;
+    margin: 0;
+}
+.daily-sample-top > p {
+    padding-top: 10px;
+}
+.weekly-menu-container div img {
+    float: right;
+    position: absolute;
+    right: 10%;
+    bottom: 19.6%;
+    height: 50%;
+    width: unset;
+}
+
+.daily-sample-mid, .daily-sample-bot {
+    position: relative;
+    height: 28.5%;
+    width: 100%;
+    padding: 7%;
+}
+
+/* .daily-sample-mid {
+    bottom: 24%;
+} */
+.daily-sample-bot {
+    bottom: 0;
+}
+
+.monday .daily-sample-bot {
+    background-color: #824603;
+    color: white;
+}
+.wednesday .daily-sample-bot {
+    background-color: #df5277;
+    color: white;
+}
+.friday .daily-sample-bot {
+    background-color: #a2304e;
+    color: white;
+}
+.sunday .daily-sample-bot {
+    background-color: #c39005;
+    color: white;
+}
+
+        /*********** footer content styling ************/
+
+footer {
+    width: 100%;
+    padding: 3px 0;
+    background-color: #df5277;
+}
+
+.contact-container {
+    width: 90%;
+    margin: auto;
+}
+.footer-contact-1, .footer-contact-2, .footer-contact-3{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 1.5vw;
+}
+.footer-contact-3 img {
+    padding-left: 18px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 0.75em;
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .main-text {
+        width: 100%;
+    }
+    .footer-contact-1 {
+        text-align: right;
+        width: 49%;
+        padding-top: 5px;
+        font-size: 3vmin;
+    }
+    .footer-contact-2 {
+        width: 49%;
+        padding-top: 5px;
+        font-size: 3vmin;
+    }
+    .footer-contact-3
+     {
+        width: 100%;
+        text-align: center;
+        padding-top: 6px;
+        font-size: 3vmin;
+    }
+    .responsive-hide {
+        display: none;
+    }
+    .contact-page-text {
+        width: 50%;
+    }
+    .contact-form {
+        width: 50%;
+    }
+    .aside-image {
+        display: none;
+    }
+    .weekly-menu-container h4 {
+        font-size: 3.5vw;
+        font-weight: normal;
+        margin: 0;
+    }
+    .daily-sample-mid, .daily-sample-bot {
+        padding: 7% 7% 0;
+    }
+    .weekly-menu-container p {
+        font-size: 2vw;
+    }
+    .weekly-menu-container div img {
+        height: 40%;
+        width: unset;
+    }
+    .weekly-menu-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        overflow-x: auto;
+    }
+    .weekly-menu-container .sample-day {
+        flex-shrink: 0;
+        width: 23%;
+        /* height: 20vmax; */
+        margin: 0 1% 2% 1%;
+    }
+    .daily-sample-mid, .daily-sample-bot {
+        position: relative;
+        height: 28.3%;
+        width: 100%;
+        padding: 7%;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+    header {
+        height: 100px;
+        background-position: center 25%;
+    }
+    .navigation {
+        padding: 9px 0;
+        right: 0;
+        font-size: 14px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-contact-3 img {
+        padding-left: 12px;
+    }
+    .weekly-menu-container .sample-day {
+        flex-shrink: 0;
+        width: 23%;
+        margin: 0 1% 2% 1%;
+    }
+    .daily-sample-mid, .daily-sample-bot {
+        position: relative;
+        padding: 7%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header {
+        position: relative;
+        background: #fffabe url(./images/logo.png) no-repeat 50% 32%;
+        width: 100%;
+    }
+    .navigation {
+        position: relative;
+        padding: 29px 0;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-item {
+        display: inline-block;
+        padding: 3.5% 2%;
+    }
+    .main-text {
+        display: block;
+        margin: auto;
+    }
+    .main-text-with-background-image {
+        background-image: none;
+    }
+    .contain-text-area {
+        width: 100%;
+    }
+    .main-text-with-background-image-2 {
+        background-image: none;
+    }
+    .daily-sample-mid, .daily-sample-bot {
+    position: relative;
+    padding: 10%;
+    }
+    .weekly-menu-container .sample-day {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .header {
+        position: relative;
+        background: #FFFABB url(./images/logo.png) no-repeat 50% 19%;
+        width: 100%;
+    }
+    .navigation {
+        position: relative;
+        padding: 21px 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .navigation .nav-list li {
+        padding: 5.5% 3% 0;
+    }
+    .navigation a {
+        font-size: 0.8em;
+    }
+    .main-content {
+        width: 80%;
+        padding: 0 0 10px;
+    }
+    .contact-page-text {
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .weekly-menu-container .sample-day {
+        width: 26.5%;
+    }
+    .daily-sample-top {
+        padding: 3% 5% 0;
+    }
+    .daily-sample-mid, .daily-sample-bot {
+        position: relative;
+        padding: 7%;
+    }
+    .weekly-menu-container h4 {
+        font-size: 4.5vw;
+    }
+    .weekly-menu-container p {
+        font-size: 2.8vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navigation {
+        position: relative;
+        padding: 30px 0px;
+        font-size: 4.5vw;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .navigation .nav-list li {
+        padding: 3.5% 1.25% 0;
+    }
+    .navigation a{
+        font-size: 0.7em;
+    }
+    .weekly-menu-container .sample-day {
+        width: 39%;
+        margin-bottom: 5%;
+    }
+    .daily-sample-mid, .daily-sample-bot {
+        position: relative;
+        padding: 7%;
+    }
+    .weekly-menu-container h4 {
+        font-size: 5vw;
+    }
+    .weekly-menu-container p {
+        font-size: 3.25vw;
+    }
+}
