@@ -688,15 +688,16 @@ ul.portfolio li.active {
 
 .statistics-section {
 	position: relative;
-    background: url(../images/bg/statistics.jpg);
+    background: url(../images/bg/coffee_code.png);
     background-size: cover;
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
 .statistics {
   margin: 25px 0;
   overflow: hidden;
-  color: #ffffff;
+  color: #ff6565;
 }
 
 .statistics.block .statistics-icon,
